@@ -6019,7 +6019,7 @@ salePopupData.a.push("1 ngày trước");
 <script>
 window.F1GEN_vars = {
 	template: "index",
-	
+	formatMoney: '{{amount}}₫',
 	account: {
 		logged: false,
 		id: null,
