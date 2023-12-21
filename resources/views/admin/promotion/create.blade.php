@@ -36,13 +36,46 @@
                 </h3>
             </div>
             <div class="card-body py-3">
+                @if (Session::has('error'))
+                    <div class="alert alert-danger" role="alert">
+                        {{ Session::get('error') }}
+                    </div>
+                @endif
                 <form action="" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="d-flex flex-column">
                         <div class="row">
-                            <div class="col">
+                            <div class="col-xxl-8">
+                                <label class="required form-label">Name</label>
                                 <input type="text" name="name" class="form-control" placeholder="Name"
-                                    value="@if (isset($promotion)) {{ $promotion->name }} @endif">
+                                    @if (isset($promotion)) {{ 'value=' . $promotion->name }} @endif>
+                                @error('name')
+                                    <span class="invalid-feedback">{{ $message }}</span>
+                                @enderror
+                            </div>
+                            <div class="col-xxl-4">
+                                <label class="required form-label">Percent</label>
+                                <input type="text" name="percent" class="form-control" placeholder="Percent"
+                                    @if (isset($promotion)) {{ 'value=' . $promotion->percent }} @endif>
+                                @error('percent')
+                                    <span class="invalid-feedback">{{ $message }}</span>
+                                @enderror
+                            </div>
+                            <div class="col-xxl-6 mt-5">
+                                <label class="required form-label">Start Date</label>
+                                <input type="date" name="start_date" id="start_date" class="form-control"
+                                    @if (isset($promotion)) {{ 'value=' . date('Y-m-d', strtotime($promotion->start_date)) }} @endif>
+                                @error('start_date')
+                                    <span class="invalid-feedback">{{ $message }}</span>
+                                @enderror
+                            </div>
+                            <div class="col-xxl-6 mt-5">
+                                <label class="required form-label">End Date</label>
+                                <input type="date" name="end_date" id="end_date" class="form-control"
+                                    @if (isset($promotion)) {{ 'value=' . date('Y-m-d', strtotime($promotion->end_date)) }} @endif>
+                                @error('end_date')
+                                    <span class="invalid-feedback">{{ $message }}</span>
+                                @enderror
                             </div>
                         </div>
                         <div class="mt-5 d-flex justify-content-end">
@@ -56,7 +89,7 @@
                                 </div>
                             @endif
                             <div class="mx-5">
-                                <a type="submit" href="/admin/category" class="btn btn-secondary">Cancel</a>
+                                <a type="submit" href="/admin/promotion" class="btn btn-secondary">Cancel</a>
                             </div>
                         </div>
                     </div>

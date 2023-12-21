@@ -4,7 +4,7 @@
     <!--begin::Logo-->
     <div class="app-sidebar-logo px-6" id="kt_app_sidebar_logo">
         <!--begin::Logo image-->
-        <a href="../../demo1/dist/index.html">
+        <a href="/admin">
             <img alt="Logo" src="{{ asset('admin_assets/media/logos/default-dark.svg') }}"
                 class="h-25px app-sidebar-logo-default" />
             <img alt="Logo" src="{{ asset('admin_assets/media/logos/default-small.svg') }}"
@@ -56,109 +56,11 @@
                         <!--begin:Menu item-->
                         <div class="menu-item">
                             <!--begin:Menu link-->
-                            <a class="menu-link active" href="../../demo1/dist/index.html">
+                            <a class="menu-link active" href="/admin">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
-                                <span class="menu-title">Default</span>
-                            </a>
-                            <!--end:Menu link-->
-                        </div>
-                        <!--end:Menu item-->
-                        <!--begin:Menu item-->
-                        <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a class="menu-link" href="../../demo1/dist/dashboards/ecommerce.html">
-                                <span class="menu-bullet">
-                                    <span class="bullet bullet-dot"></span>
-                                </span>
-                                <span class="menu-title">eCommerce</span>
-                            </a>
-                            <!--end:Menu link-->
-                        </div>
-                        <!--end:Menu item-->
-                        <div class="menu-inner flex-column collapse" id="kt_app_sidebar_menu_dashboards_collapse">
-                            <!--begin:Menu item-->
-                            <div class="menu-item">
-                                <!--begin:Menu link-->
-                                <a class="menu-link" href="../../demo1/dist/dashboards/podcast.html">
-                                    <span class="menu-bullet">
-                                        <span class="bullet bullet-dot"></span>
-                                    </span>
-                                    <span class="menu-title">Podcast</span>
-                                </a>
-                                <!--end:Menu link-->
-                            </div>
-                            <!--end:Menu item-->
-                            <!--begin:Menu item-->
-                            <div class="menu-item">
-                                <!--begin:Menu link-->
-                                <a class="menu-link" href="../../demo1/dist/landing.html">
-                                    <span class="menu-bullet">
-                                        <span class="bullet bullet-dot"></span>
-                                    </span>
-                                    <span class="menu-title">Landing</span>
-                                </a>
-                                <!--end:Menu link-->
-                            </div>
-                            <!--end:Menu item-->
-                        </div>
-                        <div class="menu-item">
-                            <div class="menu-content">
-                                <a class="btn btn-flex btn-color-primary d-flex flex-stack fs-base p-0 ms-2 mb-2 toggle collapsible collapsed"
-                                    data-bs-toggle="collapse" href="#kt_app_sidebar_menu_dashboards_collapse"
-                                    data-kt-toggle-text="Show Less">
-                                    <span data-kt-toggle-text-target="true">Show 2 More</span>
-                                    <i class="ki-duotone ki-minus-square toggle-on fs-2 me-0">
-                                        <span class="path1"></span>
-                                        <span class="path2"></span>
-                                    </i>
-                                    <i class="ki-duotone ki-plus-square toggle-off fs-2 me-0">
-                                        <span class="path1"></span>
-                                        <span class="path2"></span>
-                                        <span class="path3"></span>
-                                    </i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end:Menu sub-->
-                </div>
-                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
-                    <!--begin:Menu link-->
-                    <span class="menu-link">
-                        <span class="menu-icon">
-                            <i class="ki-duotone ki-abstract-18">
-                                <span class="path1"></span>
-                                <span class="path2"></span>
-                            </i>
-                        </span>
-                        <span class="menu-title">Category</span>
-                        <span class="menu-arrow"></span>
-                    </span>
-                    <!--end:Menu link-->
-                    <!--begin:Menu sub-->
-                    <div class="menu-sub menu-sub-accordion">
-                        <!--begin:Menu item-->
-                        <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a class="menu-link" href="/admin/category">
-                                <span class="menu-bullet">
-                                    <span class="bullet bullet-dot"></span>
-                                </span>
-                                <span class="menu-title">Menu</span>
-                            </a>
-                            <!--end:Menu link-->
-                        </div>
-                        <!--end:Menu item-->
-                        <!--begin:Menu item-->
-                        <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a class="menu-link" href="/admin/category/add">
-                                <span class="menu-bullet">
-                                    <span class="bullet bullet-dot"></span>
-                                </span>
-                                <span class="menu-title">Update Category</span>
+                                <span class="menu-title">Statistical</span>
                             </a>
                             <!--end:Menu link-->
                         </div>
@@ -166,47 +68,41 @@
                     </div>
                     <!--end:Menu sub-->
                 </div>
-                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
-                    <!--begin:Menu link-->
-                    <span class="menu-link">
-                        <span class="menu-icon">
-                            <i class="ki-duotone ki-abstract-23">
-                                <span class="path1"></span>
-                                <span class="path2"></span>
-                            </i>
-                        </span>
-                        <span class="menu-title">Promotion</span>
-                        <span class="menu-arrow"></span>
-                    </span>
-                    <!--end:Menu link-->
-                    <!--begin:Menu sub-->
-                    <div class="menu-sub menu-sub-accordion">
-                        <!--begin:Menu item-->
-                        <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a class="menu-link" href="/admin/promotion">
-                                <span class="menu-bullet">
-                                    <span class="bullet bullet-dot"></span>
-                                </span>
-                                <span class="menu-title">Menu</span>
-                            </a>
-                            <!--end:Menu link-->
-                        </div>
-                        <!--end:Menu item-->
-                        <!--begin:Menu item-->
-                        <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a class="menu-link" href="/admin/promotion/add">
-                                <span class="menu-bullet">
-                                    <span class="bullet bullet-dot"></span>
-                                </span>
-                                <span class="menu-title">Update Promotion</span>
-                            </a>
-                            <!--end:Menu link-->
-                        </div>
-                        <!--end:Menu item-->
+                <div class="menu-item pt-5"><!--begin:Menu content-->
+                    <div class="menu-content"><span class="menu-heading fw-bold text-uppercase fs-7">Ecommerce</span>
                     </div>
-                    <!--end:Menu sub-->
+                    <!--end:Menu content-->
+                </div>
+                <div data-kt-menu-trigger="click" class="menu-item menu-accordion"><!--begin:Menu link--><span
+                        class="menu-link"><span class="menu-icon"><i class="ki-duotone ki-basket fs-2"><span
+                                    class="path1"></span><span class="path2"></span><span class="path3"></span><span
+                                    class="path4"></span></i></span><span class="menu-title">Store</span><span
+                            class="menu-arrow"></span></span><!--end:Menu link-->
+                    <!--begin:Menu sub-->
+                    <div class="menu-sub menu-sub-accordion" kt-hidden-height="251"
+                        style="display: none; overflow: hidden;">
+                        <!--begin:Menu item-->
+                        <div class="menu-item">
+                            <!--begin:Menu link--><a class="menu-link" href="/admin/category"><span
+                                    class="menu-bullet"><span class="bullet bullet-dot"></span></span><span
+                                    class="menu-title">Category</span></a><!--end:Menu link-->
+                        </div>
+                        <!--end:Menu item-->
+                        <!--begin:Menu item-->
+                        <div class="menu-item">
+                            <!--begin:Menu link--><a class="menu-link" href="/admin/promotion"><span
+                                    class="menu-bullet"><span class="bullet bullet-dot"></span></span><span
+                                    class="menu-title">Promotion</span></a><!--end:Menu link-->
+                        </div>
+                        <!--end:Menu item-->
+                        <!--begin:Menu item-->
+                        <div class="menu-item">
+                            <!--begin:Menu link--><a class="menu-link" href="/admin/product"><span
+                                    class="menu-bullet"><span class="bullet bullet-dot"></span></span><span
+                                    class="menu-title">Products</span></a><!--end:Menu link-->
+                        </div>
+                        <!--end:Menu item-->
+                    </div><!--end:Menu sub-->
                 </div>
                 <!--end:Menu item-->
             </div>

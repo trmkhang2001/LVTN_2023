@@ -3,8 +3,10 @@
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Backend\CategoryController;
 use App\Http\Controllers\Backend\DashboardController;
+use App\Http\Controllers\Backend\ProductController;
 use App\Http\Controllers\Backend\PromotionController;
 use App\Models\Category;
+use App\Models\Product;
 use Illuminate\Support\Facades\Route;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
@@ -43,6 +45,18 @@ Route::middleware('auth')->group(function () {
         Route::controller(PromotionController::class)->prefix('/promotion')->group(function () {
             Route::get('/', 'index')->name('admin.page.promotion.index');
             Route::get('/add', 'create')->name('admin.page.promotion.create');
+            Route::post('/add', 'store');
+            Route::get('/update/{id}', 'edit')->name('admin.page.promotion.edit');
+            Route::post('/update/{id}', 'update');
+            Route::delete('/{id}', 'destroy')->name('admin.page.promotion.delete');
+        });
+        Route::controller(ProductController::class)->prefix('/product')->group(function () {
+            Route::get('/', 'index')->name('admin.page.product.index');
+            Route::get('/add', 'create')->name('admin.page.product.create');
+            Route::post('/add', 'store');
+            Route::get('/update/{id}', 'edit')->name('admin.page.product.edit');
+            Route::post('/update/{id}', 'update');
+            Route::delete('/{id]', 'destroy')->name('admin.page.product.delete');
         });
     });
 });

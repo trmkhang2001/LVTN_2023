@@ -42,7 +42,7 @@
                         <div class="row">
                             <div class="col">
                                 <input type="text" name="name" class="form-control" placeholder="Name"
-                                    value="@if (isset($category)) {{ $category->name }} @endif">
+                                    @if (isset($category)) {{ 'value=' . $category->name }} @endif>
                             </div>
                         </div>
                         <div class="mt-5 d-flex justify-content-end">

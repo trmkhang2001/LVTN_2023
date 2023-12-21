@@ -37,7 +37,7 @@
                     <span class="text-muted mt-1 fw-semibold fs-7">Over 500 product</span>
                 </h3>
                 <div class="">
-                    <a href="/admin/category/add" class="btn btn-sm btn-light btn-active-primary">
+                    <a href="/admin/promotion/add" class="btn btn-sm btn-light btn-active-primary">
                         <i class="ki-duotone ki-plus fs-2"></i> New Promotion
                     </a>
                 </div>
@@ -95,20 +95,20 @@
                                         </td>
                                         <td>
                                             <span
-                                                class="text-gray-900 fw-bold text-hover-primary d-block fs-6">{{ $promotion->percent }}</span>
+                                                class="text-gray-900 fw-bold text-hover-primary d-block fs-6">{{ $promotion->percent . '%' }}</span>
                                         </td>
                                         <td>
                                             <span
-                                                class="text-gray-900 fw-bold text-hover-primary d-block fs-6">{{ $promotion->start_date }}
-                                                - {{ $promotion->end_date }}</span>
+                                                class="text-gray-900 fw-bold text-hover-primary d-block fs-6">{{ date('d/m/Y', strtotime($promotion->start_date)) }}
+                                                - {{ date('d/m/Y', strtotime($promotion->end_date)) }}</span>
                                         </td>
                                         <td>
                                             <div class="d-flex flex-shrink-0">
-                                                <a href=""
+                                                <a href="{{ route('admin.page.promotion.edit', $promotion->id) }}"
                                                     class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
                                                     <i class="ki-duotone ki-pencil fs-2"><span class="path1"></span><span
                                                             class="path2"></span></i> </a>
-                                                <form action="{{ route('admin.page.category.delete', $promotion->id) }}"
+                                                <form action="{{ route('admin.page.promotion.delete', $promotion->id) }}"
                                                     method="POST" type="button"
                                                     onsubmit="return confirm('Bạn chắc chắn muốn xóa ?')">
                                                     @csrf

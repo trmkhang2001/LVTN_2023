@@ -5,14 +5,19 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Promotion extends Model
+class Product extends Model
 {
     use HasFactory;
     protected $fillable = [
+        'sku',
+        'img',
         'name',
-        'percent',
-        'start_date',
-        'end_date',
+        'description',
+        'price',
+        'id_bh',
+        'quantity',
         'status',
+        'id_category',
+        'id_supploer',
     ];
 }

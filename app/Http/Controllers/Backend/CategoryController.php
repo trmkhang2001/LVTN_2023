@@ -27,7 +27,7 @@ class CategoryController extends Controller
         Category::create([
             'name' => $request->name,
         ]);
-        return redirect()->route('admin.page.categirt.index')->with('success', 'Add Category Success');
+        return redirect()->route('admin.page.category.index')->with('success', 'Add Category Success');
     }
     public function edit(string $id)
     {
