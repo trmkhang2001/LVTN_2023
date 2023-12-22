@@ -1,35 +1,8 @@
-<!-- HEADER -->
 <!DOCTYPE html>
 <html class="no-js" lang="vi">
 
-<!-- Meta Pixel Code -->
-<script>
-    ! function(f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function() {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = '2.0';
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '411675191019459');
-    fbq('track', 'PageView');
-</script>
 <noscript><img height="1" width="1" style="display:none"
         src="https://www.facebook.com/tr?id=411675191019459&ev=PageView&noscript=1" /></noscript>
-<!-- End Meta Pixel Code -->
-
-<meta name="facebook-domain-verification" content="l6h45gu81uqpqqvybvve1kxxijs6kc" />
 
 <head>
     <!-- Google tag (gtag.js) -->
@@ -86,10 +59,10 @@
     <link rel="shortcut icon" href="//theme.hstatic.net/200000397235/1000894095/14/favicon.png?v=241"
         type="image/png" />
     <title>
-        SAO CHỔI PC - HI END PC & GAMING GEAR &ndash; Sao Chổi PC
+        Máy tính - PC GAMING - VĂN PHÒNG GIÁ RẺ NHẤT &ndash; Sao Chổi PC
     </title>
-    <link rel="canonical" href="https://saochoipc.com/" />
-    <link rel="alternate" href="https://saochoipc.com/" hreflang="vi-vn" />
+    <link rel="canonical" href="https://saochoipc.com/collections/pc-sao-choi" />
+    <link rel="alternate" href="https://saochoipc.com/collections/pc-sao-choi" hreflang="vi-vn" />
     <meta name="keywords" content="Sao Chổi PC">
 
     <meta name="robots" content="index,follow,noodp">
@@ -122,7 +95,9 @@
         window.HaravanAnalytics.meta.currency = 'VND';
         var meta = {
             "page": {
-                "pageType": "home"
+                "pageType": "collection",
+                "resourceType": "collection",
+                "resourceId": 1002813335
             }
         };
         for (var attr in meta) {
@@ -166,9 +141,10 @@
     </script>
     <!-- SEO META DESCRIPTION -->
     <meta name="description"
-        content="Sao Chổi PC tự hào là đơn vị chuyên cung cấp máy tính bàn, linh kiện máy tính, laptop chất lượng cao với giá RẺ NHẤT Việt Nam.Đến ngay Showroom : 49 Lê Liễu P.Tân Quý, Q.Tân Phú, TPHCM. Hotline : 0782574048" />
+        content="Sao Chổi PC tự hào là nơi chuyên cung cấp Máy tính - PC GAMING - VĂN PHÒNG GIÁ RẺ NHẤT VIỆT NAM.Giá chỉ từ 6 triệu - 50tr. Đa dạng các hãng : ASUS, DELL, MSI, GIGABYTE ,... CAM KẾT HÀNG CHÍNH HÃNG MỚI 100% .Giúp quý khách yên tâm trải nghiệm PC bền bỉ với giá RẺ NHẤT, phục vụ nhu cầu học tập và l..." />
     <!-- END SEO META DESCRIPTION -->
     <!-- SEO PAGI -->
+
     <!-- END SEO PAGI -->
 
     <link rel="dns-prefetch" href="https://saochoipc.com">
@@ -207,15 +183,16 @@
     <link rel="preload" href="//theme.hstatic.net/200000397235/1000894095/14/styles.scss.css?v=241" as="style">
 
 
+
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="SAO CHỔI PC - HI END PC &amp; GAMING GEAR" />
+    <meta property="og:title" content="PC GAMING ĐỒ HỌA - Ở ĐÂU RẺ HƠN HOÀN TIỀN" />
     <meta property="og:image"
-        content="http://file.hstatic.net/200000397235/file/1_249cac6e9b0c4f66b8841aac68a32d8b.jpg" />
+        content="http://file.hstatic.net/200000397235/collection/pc_gaming_es1_i3_10105f_ram_8gb_gt_1030__ssd_120gb_953f431b6bc14236a5916d3de4d9bdf5.jpg" />
     <meta property="og:image"
-        content="https://file.hstatic.net/200000397235/file/1_249cac6e9b0c4f66b8841aac68a32d8b.jpg" />
+        content="https://file.hstatic.net/200000397235/collection/pc_gaming_es1_i3_10105f_ram_8gb_gt_1030__ssd_120gb_953f431b6bc14236a5916d3de4d9bdf5.jpg" />
     <meta property="og:description"
-        content="Sao Chổi PC tự hào là đơn vị chuyên cung cấp máy tính bàn, linh kiện máy tính, laptop chất lượng cao với giá RẺ NHẤT Việt Nam.Đến ngay Showroom : 49 Lê Liễu P.Tân Quý, Q.Tân Phú, TPHCM. Hotline : 0782574048" />
-    <meta property="og:url" content="https://saochoipc.com/" />
+        content="Sao Chổi PC tự hào là nơi chuyên cung cấp Máy tính - PC GAMING - VĂN PHÒNG GIÁ RẺ NHẤT VIỆT NAM.Giá chỉ từ 6 triệu - 50tr. Đa dạng các hãng : ASUS, DELL, MSI, GIGABYTE ,... CAM KẾT HÀNG CHÍNH HÃNG MỚI 100% .Giúp quý khách yên tâm trải nghiệm PC bền bỉ với giá RẺ NHẤT, phục vụ nhu cầu học tập và làm việc." />
+    <meta property="og:url" content="https://saochoipc.com/collections/pc-sao-choi" />
     <meta property="og:site_name" content="Sao Chổi PC" />
 
 
@@ -228,6 +205,16 @@
         type='text/css' media='all' />
     <link href='//theme.hstatic.net/200000397235/1000894095/14/b.scss.css?v=241' rel='stylesheet' type='text/css'
         media='all' />
+
+    <link href="//theme.hstatic.net/200000397235/1000894095/14/plugin-no-index.css?v=241" rel='stylesheet'
+        type='text/css' media='all' />
+    <link href="//theme.hstatic.net/200000397235/1000894095/14/styles-no-index.scss.css?v=241" rel='stylesheet'
+        type='text/css' media='all' />
+    <style>
+        footer#footer {
+            margin-top: 25px;
+        }
+    </style>
 
 
 
@@ -262,7 +249,7 @@
 
 </head>
 
-<body id="sao-chổi-pc" class="index template-index">
+<body id="sao-chổi-pc" class="collection template-index">
     <div class="faded"></div>
 
 
@@ -282,20 +269,21 @@
         <div id="sticky-banner">
             <div id="sticky-banner-target">
                 <div class="medium">
-                    <a href="" target="_blank" class="left">
+                    <a href="https://saochoipc.com/collections/pc-sao-choi" target="_blank" class="left">
                         <img src="//theme.hstatic.net/200000397235/1000894095/14/stk-bn-left.png?v=241"
                             width="100"></a>
-                    <a href="" target="_blank" class="right">
+                    <a href="https://saochoipc.com/collections/pc-sao-choi" target="_blank" class="right">
                         <img src="//theme.hstatic.net/200000397235/1000894095/14/stk-bn-right.png?v=241"
                             width="100"></a>
                 </div>
 
 
                 <div class="large">
-                    <a href="" target="_blank" class="left">
+                    <a href="https://saochoipc.com/pages/chinh-sach-giao-hang-van-chuyen" target="_blank"
+                        class="left">
                         <img src="//theme.hstatic.net/200000397235/1000894095/14/stk-bn-left.png?v=241"
                             width="150"></a>
-                    <a href="" target="_blank" class="right">
+                    <a href="https://saochoipc.com/collections/pc-sao-choi" target="_blank" class="right">
                         <img src="//theme.hstatic.net/200000397235/1000894095/14/stk-bn-right.png?v=241"
                             width="150"></a>
                 </div>
@@ -320,36 +308,33 @@
                             <i class="fas fa-times"></i>
                         </div>
                     </div>
-
-                    @if (Session::has('success'))
+                    
+                    
                         <div class="sidebar-header">
+
                             <a class="gearvn-header-top-item" href="/register">
                                 <i style="color:#050505" class="fa fa-user"></i>
                                 <div class="header-right-description">
                                     <div class="gearvn-text">Đăng ký</div>
                                 </div>
                             </a>
-
                             <a class="gearvn-header-top-item" href="/login">
                                 <i style="color:#050505" class="fa fa-sign-out"></i>
 
                                 <div class="header-right-description">
-                                    <div class="gearvn-text">Đăng nhập1</div>
+                                    <div class="gearvn-text">Đăng nhập</div>
                                 </div>
                             </a>
-
-
                         </div>
-                    @else
+                    
                         <a class="gearvn-header-top-item" href="/logout">
                             <i style="color:#050505" class="fa fa-sign-out"></i>
 
                             <div class="header-right-description">
-                                <div class="gearvn-text">Đăng xuất3</div>
+                                <div class="gearvn-text">Đăng xuất</div>
                             </div>
                         </a>
-                    @endif
-
+                   
 
 
 
@@ -376,7 +361,7 @@
 
                             <li class="sidebar-dropdown">
 
-                                <a href="/pc_sao_choi">
+                                <a href="https://saochoipc.com/pages/tuy-chon-may-tinh">
                                     <img src="//theme.hstatic.net/200000397235/1000894095/14/xxxmb21.png?v=241">
 
                                     <img src="//theme.hstatic.net/200000397235/1000894095/14/xxxmb11.png?v=241">
@@ -384,9 +369,10 @@
                                 </a>
                             </li>
 
+
                             <li class="sidebar-dropdown">
 
-                                <a href="/trang_tri_pc">
+                                <a href="/collections/trang-tri-pc">
                                     <img src="//theme.hstatic.net/200000397235/1000894095/14/xxxmb22.png?v=241">
 
                                     <img src="//theme.hstatic.net/200000397235/1000894095/14/xxxmb12.png?v=241">
@@ -395,10 +381,9 @@
                             </li>
 
 
-
                             <li class="sidebar-dropdown">
 
-                                <a href="/man_hinh_may_tinh">
+                                <a href="/collections/man-hinh-may-tinh">
                                     <img src="//theme.hstatic.net/200000397235/1000894095/14/xxxmb23.png?v=241">
 
                                     <img src="//theme.hstatic.net/200000397235/1000894095/14/xxxmb13.png?v=241">
@@ -421,7 +406,6 @@
 
 
 
-
                             <li class="header-menu">
                                 <span>Thông tin</span>
                             </li>
@@ -433,6 +417,7 @@
                                 </a>
                             </li>
 
+
                             <li>
                                 <a href="">
                                     <img style="max-width:15px"
@@ -441,6 +426,14 @@
                                 </a>
                             </li>
 
+
+                            <li>
+                                <a href="/pc_sao_choi">
+                                    <img style="max-width:15px"
+                                        src="//theme.hstatic.net/200000397235/1000894095/14/icon_menu_2.png?v=241">
+                                    <span class="bold">PC SAO CHỔI</span>
+                                </a>
+                            </li>
 
 
                             <li>
@@ -451,6 +444,7 @@
                                 </a>
                             </li>
 
+
                             <li>
                                 <a href="/chinh_sach_bao_hanh">
                                     <img style="max-width:15px"
@@ -459,6 +453,7 @@
                                 </a>
                             </li>
 
+
                             <li>
                                 <a href="/chinh_sach_van_chuyen">
                                     <img style="max-width:15px"
@@ -466,6 +461,7 @@
                                     <span class="bold">CHÍNH SÁCH VẬN CHUYỂN</span>
                                 </a>
                             </li>
+
 
                             <li>
                                 <a
@@ -476,13 +472,15 @@
                                 </a>
                             </li>
 
+
                             <li>
                                 <a href="">
                                     <img style="max-width:15px"
                                         src="//theme.hstatic.net/200000397235/1000894095/14/icon_menu_8.png?v=241">
-                                    <span class="bold">SAO CHỔI LUÔN CÓ GIÁ TỐT NHẤT</span>
+                                    <span class="bold">SAO CHỔI LUÔN CÓ GIÁ TỐT NHẤT ?</span>
                                 </a>
                             </li>
+
 
                         </ul>
                     </div>
@@ -504,19 +502,19 @@
                 <div class="gearvn-top-banner-block ">
 
 
-                    <a href="">
+                    <a href="/">
                         <div class="gearvn-top-banner"
                             style="background:url(//theme.hstatic.net/200000397235/1000894095/14/bn-top1.jpg?v=241) ,#603288;">
                         </div>
                     </a>
-                    <a href="">
+                    <a href="/">
                         <div class="gearvn-top-banner"
                             style="background:url(//theme.hstatic.net/200000397235/1000894095/14/bn-top2.jpg?v=241) , #603288;">
 
                         </div>
                     </a>
 
-                    <a href="">
+                    <a href="/">
                         <div class="gearvn-top-banner"
                             style="background:url(//theme.hstatic.net/200000397235/1000894095/14/bn-top3.jpg?v=241) ,#603288;">
 
@@ -524,7 +522,7 @@
                     </a>
 
 
-                    <a href="">
+                    <a href="/">
                         <div class="gearvn-top-banner"
                             style="background:url(//theme.hstatic.net/200000397235/1000894095/14/bn-top4.jpg?v=241) ,#603288;">
 
@@ -883,8 +881,11 @@
 
                                     </div>
                                 </div>
-                                <div class=" pdl0 fl1 ">
+                                
+                                <div class=" pdl0 fl1">
+
                                     <div class="gearvn-right-top-block">
+
                                         @guest
                                             <div>
                                                 <a class="gearvn-header-top-item" href="/register">
@@ -946,13 +947,11 @@
                                                     NHẤT</a></span>
                                         </li>
 
-
                                         <li><img
                                                 src="//theme.hstatic.net/200000397235/1000894095/14/gNewsFavIco.png?v=241">
-                                            <span><a style="color:#ea1c00" href="">TỔNG ĐÀI : 1900
-                                                    1900</a></span>
+                                            <span><a style="color:#ea1c00" href="">TỔNG ĐÀI :1900 1900
+                                                </a></span>
                                         </li>
-
 
                                         <li><img src="//theme.hstatic.net/200000397235/1000894095/14/map.png?v=241">
                                             <span><a style="color:#ea1c00"
@@ -988,17 +987,15 @@
                                     <nav id="megamenu-nav-freez" class="megamenu-nav">
                                         <ol class="megamenu-nav-primary responsive" id="megamenu-nav-main-2">
 
-
                                             <li class="cat-menu-item ">
                                                 <a class="gearvn-cat-menu-item" href="/pc_sao_choi">
                                                     <span class="gearvn-cat-menu-icon">
                                                         <img
                                                             src="//theme.hstatic.net/200000397235/1000894095/14/xxx11.png?v=241">
                                                     </span>
-                                                    <span class="gearvn-cat-menu-name">PC GAMING</span>
+                                                    <span class="gearvn-cat-menu-name">PC Sao Chổi</span>
                                                 </a>
                                             </li>
-
 
                                             <li class="cat-menu-item ">
                                                 <a class="gearvn-cat-menu-item" href="/trang_tri_pc">
@@ -1009,7 +1006,6 @@
                                                     <span class="gearvn-cat-menu-name">TRANG TRÍ PC</span>
                                                 </a>
                                             </li>
-
 
                                             <li class="cat-menu-item ">
                                                 <a class="gearvn-cat-menu-item" href="/man_hinh_may_tinh">
@@ -1032,8 +1028,6 @@
                                             </li>
 
 
-
-
                                         </ol>
                                     </nav>
                                 </div>
@@ -1052,8 +1046,10 @@
                                     <img src="//theme.hstatic.net/200000397235/1000894095/14/xk1.png?v=241">
                                     <img src="//theme.hstatic.net/200000397235/1000894095/14/xk1s.png?v=241">
                                 </div>
+
                                 MÁY TÍNH SAO CHỔI
                             </a>
+
                             <a href="/huong_dan_thanh_toan"
                                 class="gearvn-header-navigation-item recently-product-item header-navigation-recently-products ">
                                 <div class="xxxkt">
@@ -1085,191 +1081,6 @@
                     </div>
                 </div>
 
-            </div>
-
-            <div class="gearvn-header-navigation ">
-                <div class="row gearvn-content-section gearvn-header-navigation-content padding-10-0 container">
-
-                    <!--MENU LEFT-->
-                    <!--<span class="click-list"><i class="fa fa-bars"></i> Danh mục sản phẩm</span>-->
-                    <div class="gearvn-header-menu">
-                        <div class="cat-menu gearvn-cat-menu">
-
-                            <nav id="megamenu-nav" class="megamenu-nav">
-                                <ol class="megamenu-nav-primary responsive" id="megamenu-nav-main">
-
-                                    <li class="cat-menu-item ">
-                                        <a class="gearvn-cat-menu-item" href="/pc_sao_choi">
-                                            <span class="gearvn-cat-menu-icon">
-                                                <img
-                                                    src="//theme.hstatic.net/200000397235/1000894095/14/xxx11.png?v=241">
-                                            </span>
-                                            <span class="gearvn-cat-menu-name">PC Sao Chổi</span>
-                                        </a>
-                                    </li>
-
-
-                                    <li class="cat-menu-item ">
-                                        <a class="gearvn-cat-menu-item" href="/trang_tri_pc">
-                                            <span class="gearvn-cat-menu-icon">
-                                                <img
-                                                    src="//theme.hstatic.net/200000397235/1000894095/14/xxx12.png?v=241">
-                                            </span>
-                                            <span class="gearvn-cat-menu-name">TRANG TRÍ PC</span>
-                                        </a>
-                                    </li>
-
-
-                                    <li class="cat-menu-item ">
-                                        <a class="gearvn-cat-menu-item" href="/man_hinh_may_tinh">
-                                            <span class="gearvn-cat-menu-icon">
-                                                <img
-                                                    src="//theme.hstatic.net/200000397235/1000894095/14/xxx13.png?v=241">
-                                            </span>
-                                            <span class="gearvn-cat-menu-name">Màn hình máy tính</span>
-                                        </a>
-                                    </li>
-
-
-                                    <li class="cat-menu-item ">
-                                        <a class="gearvn-cat-menu-item" href="/mainboard">
-                                            <span class="gearvn-cat-menu-icon">
-                                                <img
-                                                    src="//theme.hstatic.net/200000397235/1000894095/14/xxx14.png?v=241">
-                                            </span>
-                                            <span class="gearvn-cat-menu-name">Mainboard</span>
-                                        </a>
-                                    </li>
-
-                                </ol>
-                            </nav>
-                        </div>
-                    </div>
-                    <!--MENU LEFT-->
-
-                    <!--NAVIGATION RIGHT-->
-                    <div class="gearvn-header-navigation-block">
-                        <div class="gearvn-header-banner">
-                            <div class="left">
-                                <div class="slider-wrap">
-                                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                                        <!-- Indicators -->
-                                        <ol class="carousel-indicators">
-
-
-                                            <li data-target="#carousel-example-generic" data-slide-to="0"
-                                                class="active"></li>
-
-
-                                            <li data-target="#carousel-example-generic" data-slide-to="1"
-                                                class=""></li>
-
-
-                                            <li data-target="#carousel-example-generic" data-slide-to="2"
-                                                class=""></li>
-
-
-                                            <li data-target="#carousel-example-generic" data-slide-to="3"
-                                                class=""></li>
-
-
-                                        </ol>
-
-                                        <!-- Wrapper for slides -->
-                                        <div class="carousel-inner">
-
-
-                                            <div class="item active ">
-                                                <a href="">
-
-                                                    <img class="w-100"
-                                                        src="//theme.hstatic.net/200000397235/1000894095/14/slideshow_1.jpg?v=241"
-                                                        alt="...">
-                                                </a>
-                                            </div>
-
-
-                                            <div class="item ">
-                                                <a href="">
-
-                                                    <img class="w-100"
-                                                        src="//theme.hstatic.net/200000397235/1000894095/14/slideshow_2.jpg?v=241"
-                                                        alt="...">
-                                                </a>
-                                            </div>
-
-
-                                            <div class="item ">
-                                                <a href="">
-
-                                                    <img class="w-100"
-                                                        src="//theme.hstatic.net/200000397235/1000894095/14/slideshow_3.jpg?v=241"
-                                                        alt="...">
-                                                </a>
-                                            </div>
-
-
-                                            <div class="item ">
-                                                <a href="">
-
-                                                    <img class="w-100"
-                                                        src="//theme.hstatic.net/200000397235/1000894095/14/slideshow_4.jpg?v=241"
-                                                        alt="...">
-                                                </a>
-                                            </div>
-
-                                        </div>
-
-                                        <!-- Controls -->
-                                        <a class="left carousel-control" href="#carousel-example-generic"
-                                            role="button" data-slide="prev">
-                                            <span class="glyphicon glyphicon-chevron-left"></span>
-                                        </a>
-                                        <a class="right carousel-control" href="#carousel-example-generic"
-                                            role="button" data-slide="next">
-                                            <span class="glyphicon glyphicon-chevron-right"></span>
-                                        </a>
-                                    </div> <!-- Carousel -->
-                                </div>
-
-                                <div class="sub-banner-wrap i100">
-                                    <a href="" class="sub-item"> <!-- TuyChon -->
-                                        <img src="//theme.hstatic.net/200000397235/1000894095/14/solid4.jpg?v=241">
-
-                                    </a>
-                                    <a href="" class="sub-item"> <!-- ManHinh -->
-                                        <img src="//theme.hstatic.net/200000397235/1000894095/14/solid5.jpg?v=241">
-
-                                    </a>
-                                </div>
-                                <div class="sub-banner-wrap i100 show-in-768">
-                                    <a href="" class="sub-item" style="margin-top: 4px;">
-                                        <img src="//theme.hstatic.net/200000397235/1000894095/14/solid3.jpg?v=241">
-                                    </a>
-                                </div>
-                                <div class="sub-banner-wrap i100 show-in-768">
-                                    <a href="" class="sub-item"> <!-- Trau -->
-                                        <img src="//theme.hstatic.net/200000397235/1000894095/14/solid1.jpg?v=241">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="right i100">
-                                <div class="sub-item-right">
-                                    <a href="" class="sub-item"> <!-- Trau -->
-                                        <img src="//theme.hstatic.net/200000397235/1000894095/14/solid1.jpg?v=241">
-                                    </a>
-                                    <a href="" class="sub-item"> <!-- Trau -->
-                                        <img src="//theme.hstatic.net/200000397235/1000894095/14/solid1.jpg?v=241">
-                                    </a>
-                                    <a href="" class="sub-item"> <!-- FB -->
-                                        <img src="//theme.hstatic.net/200000397235/1000894095/14/solid3.jpg?v=241">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--END NAVIGATION RIGHT-->
-                </div>
             </div>
 
         </div>
@@ -1556,11 +1367,14 @@
             var jQueryrow = jQuery(row),
                 jQuerysubmenu = jQueryrow.children('.megamenu');
 
-
+            //	console.log(jQuerysubmenu);
             jQueryrow.find('a').addClass('hover');
 
             jQuerysubmenu.css('display', 'block');
+            //jQuery('.gearvn-cat-menu-item').css('background','#ea1c04 !important'); 
 
+
+            //jQuerysubmenu.css({'display': 'opacity:1 !important', 'visibility':'visible !important'});
         }
 
         function deactivateSubmenu(row) {
@@ -1576,9 +1390,37 @@
 
 
 
+
+
+        /*
+
+
+        										function getImgSize(imgSrc) {
+        										var newImg = new Image();
+
+        										newImg.onload = function() {
+        										var height = newImg.height;
+        										var width = newImg.width;
+
+        										}
+
+        										newImg.src = imgSrc; // this must be done AFTER setting onload
+        										}
+        										getImgSize('https://theme.hstatic.net/1000026716/1000433266/14/PC_gaming.png?v=1551');
+        										getImgSize(jQuery('#xxx').attr('src'))
+
+        										*/
+
+
+
         jQuery(window).load(function() {
             jQuery('.loader').fadeOut("slow");
         })
+
+
+
+
+
 
 
 
@@ -1711,237 +1553,15 @@
     </script>
 
 
-    <main>
-        <h1 class="d-none">
-            SAO CHỔI PC - HI END PC & GAMING GEAR
-        </h1>
+    <style>
+        .fixed-nav:hover .freez {
+            display: block !important;
+        }
+    </style>
 
-
-
-        <link href='//theme.hstatic.net/200000397235/1000894095/14/owl.carousel.min.css?v=241' rel='stylesheet'
-            type='text/css' media='all' />
-        <link href='//theme.hstatic.net/200000397235/1000894095/14/b.scss.css?v=241' rel='stylesheet' type='text/css'
-            media='all' />
-        <script src='//theme.hstatic.net/200000397235/1000894095/14/owl.carousel.min.js?v=241' type='text/javascript'></script>
-        <script src='//theme.hstatic.net/200000397235/1000894095/14/time-to.js?v=241' type='text/javascript'></script>
-
-        <div id="featured-new-product" style="margin-bottom:20px">
-            <div class="container">
-                <h1 class="new-product-title">
-                    PC SAO CHỔI - TƯNG BỪNG GIẢM GIÁ
-                </h1>
-
-                
-               
-                <ul class="owl-carousel">
-
-                    @foreach ($products as $product)
-                        <li>
-                            <div class="product-row">
-                                <div class="product-row-img">
-
-                                    <a href="/product/{{$product->id}}">
-                                        <img class="product-row-thumbnail"
-                                            src="{{ $product->img }}"
-                                            alt="" />
-                                    </a>
-                                </div>
-                                <h2 class="product-row-name">{{ $product->name }}</h2>
-                                <div class="product-row-info">
-                                    <div class="product-row-price pull-left">
-                                        <del style=""></del><br />
-                                        <span class="product-row-sale">{{ $product->price }}</span>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="new-product-percent" style="">-32%</div>
-                            </div>
-
-
-                        </li>
-                    @endforeach
-
-                </ul>
-            </div>
-        </div>
-        <script>
-            (function(jQuery) {
-                if ($(window).width() > 767) {
-                    jQuery('#featured-new-product .owl-carousel').owlCarousel({
-                        loop: true,
-                        autoplay: true,
-                        margin: 25,
-                        responsiveClass: true,
-                        navigation: true,
-                        nav: true,
-                        navText: ['<span class="fa fa-chevron-left click-fa-top" aria-hidden="true"></span>',
-                            '<span class="fa fa-chevron-right" aria-hidden="true"></span>'
-                        ],
-                        responsive: {
-                            0: {
-                                items: 2,
-                                margin: 15
-                            },
-                            600: {
-                                items: 2,
-                                margin: 15
-                            },
-                            990: {
-                                items: 5,
-                                loop: false,
-                                margin: 25
-                            }
-                        }
-                    });
-                }
-                if (jQuery(".bescoundouwn.new1").length > 0) {
-                    jQuery(".bescoundouwn.new1 .countdown").each(function() {
-                        jQuery(this).timeTo({
-                            timeTo: new Date(jQuery(this).attr("data-time")),
-                            displayDays: false,
-                            theme: "black",
-                            displayCaptions: false,
-                            fontSize: 16,
-                        });
-                    });
-                }
-
-            })(jQuery);
-        </script>
-
-        <script>
-            (function(jQuery) {
-
-                if (jQuery(".bescoundouwn.new1").length > 0) {
-                    jQuery(".bescoundouwn.new1 .countdown").each(function() {
-                        jQuery(this).timeTo({
-                            timeTo: new Date(jQuery(this).attr("data-time")),
-                            displayDays: false,
-                            theme: "black",
-                            displayCaptions: false,
-                            fontSize: 16,
-                        });
-                    });
-                }
-
-            })(jQuery);
-        </script>
-
-
-        
-
-
-        <section id="vendor">
-            <div class="container">
-                <div class="sectionTitleAll">
-                    <h2>
-                        ĐỒNG HÀNH CÙNG ĐỐI TÁC
-                    </h2>
-                </div>
-                <div class="vendor-main">
-
-
-                    <div class="vendor-main-item">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                            class="lazyload img-fluid"
-                            data-src="https://file.hstatic.net/200000397235/file/honor_1_eab20c99f74142a2a48f3b38_9d53cce4ef984482b6a1d711665aaced.png"
-                            alt="Vendor-1" />
-                    </div>
-
-
-                    <div class="vendor-main-item">
-
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                            class="lazyload img-fluid"
-                            data-src="https://file.hstatic.net/200000397235/file/honor_1_eab20c99f74142a2a48f3b38_3f9852d0c93c4e39867088c5f36524f4.png"
-                            alt="Vendor-2" />
-
-                    </div>
-
-
-                    <div class="vendor-main-item">
-
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                            class="lazyload img-fluid"
-                            data-src="https://file.hstatic.net/200000397235/file/honor_1_eab20c99f74142a2a48f3b38_44f266ca642d4033ad252fbb372c9466.png"
-                            alt="Vendor-3" />
-
-                    </div>
-
-
-                    <div class="vendor-main-item">
-
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                            class="lazyload img-fluid"
-                            data-src="https://file.hstatic.net/200000397235/file/honor_1_eab20c99f74142a2a48f3b38_e58acc8dc8fe48fdbfb717948f678eb3.png"
-                            alt="Vendor-4" />
-
-                    </div>
-
-
-                    <div class="vendor-main-item">
-
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                            class="lazyload img-fluid"
-                            data-src="https://file.hstatic.net/200000397235/file/honor_1_eab20c99f74142a2a48f3b38_042791fbd10140c7864f4444c3005a59.png"
-                            alt="Vendor-5" />
-
-                    </div>
-
-
-                    <div class="vendor-main-item">
-
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                            class="lazyload img-fluid"
-                            data-src="https://file.hstatic.net/200000397235/file/honor_1_eab20c99f74142a2a48f3b38_82ddbc0a8bed476b9e53792c1ed7fe13.png"
-                            alt="Vendor-6" />
-
-                    </div>
-
-
-                    <div class="vendor-main-item">
-
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                            class="lazyload img-fluid"
-                            data-src="https://file.hstatic.net/200000397235/file/honor_1_eab20c99f74142a2a48f3b38_0d77fac5a3964ab287b5b2a9fbe5244a.png"
-                            alt="Vendor-7" />
-
-                    </div>
-
-
-                    <div class="vendor-main-item">
-
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                            class="lazyload img-fluid"
-                            data-src="https://file.hstatic.net/200000397235/file/honor_1_eab20c99f74142a2a48f3b38_743b31f5c0004b29afbf002c86dcd125.png"
-                            alt="Vendor-8" />
-
-                    </div>
-
-
-                    <div class="vendor-main-item">
-
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                            class="lazyload img-fluid"
-                            data-src="https://file.hstatic.net/200000397235/file/honor_1_eab20c99f74142a2a48f3b38_e0b5acb2bfd1464bacb4a86de256244d.png"
-                            alt="Vendor-9" />
-
-                    </div>
-
-
-                    <div class="vendor-main-item">
-
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                            class="lazyload img-fluid"
-                            data-src="https://file.hstatic.net/200000397235/file/honor_1_eab20c99f74142a2a48f3b38_f24a8515913943fd93610b0898142183.png"
-                            alt="Vendor-10" />
-
-                    </div>
-
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- FOOTER -->
-    @include('clients.footer')
+    <main class="not-index">
+        <style>
+            .new-product-percent {
+                right: 20px;
+            }
+        </style>

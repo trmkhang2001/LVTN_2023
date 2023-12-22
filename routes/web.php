@@ -5,6 +5,8 @@ use App\Http\Controllers\Backend\CategoryController;
 use App\Http\Controllers\Backend\DashboardController;
 use App\Http\Controllers\Backend\ProductController;
 use App\Http\Controllers\Backend\PromotionController;
+use App\Http\Controllers\Clients\ClientsController;
+use App\Http\Controllers\Clients\ProductsController as ClientProductController;
 use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Support\Facades\Route;
@@ -21,16 +23,64 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 |
 */
 
-Route::get('/', function () {
-    return view('clients/index');
+Route::controller(ClientsController::class)->prefix('/')->group(function(){
+    Route::get('','index');
+    Route::get('/home','index')->name('clients.page.home');
+
+    Route::get('/cart','cart');
+
+
+
+    Route::get('/huong_dan_thanh_toan','huong_dan_thanh_toan');
+    Route::get('/chinh_sach_bao_hanh','chinh_sach_bao_hanh');
+    Route::get('/chinh_sach_van_chuyen','chinh_sach_van_chuyen');
+
+    
+
+
+    Route::get('/pc_sao_choi','pc_sao_choi');
+    Route::get('/pc_gaming_cam','pc_gaming_cam');
+    Route::get('/pc_gaming_chuoi','pc_gaming_chuoi');
+    Route::get('/pc_gaming_kiwi','pc_gaming_kiwi');
+
+
+
+    Route::get('/trang_tri_pc','trang_tri_pc');
+    Route::get('/den_ngu','den_ngu');
+    Route::get('/bat_man','bat_man');
+    Route::get('/marvel_black','marvel_black');
+    Route::get('/ironman_black','ironman_black');
+    Route::get('/ironman_red','ironman_red');
+
+
+    Route::get('/man_hinh_may_tinh','man_hinh_may_tinh');
+    Route::get('/man_hinh_ip2408s','man_hinh_ip2408s');
+    Route::get('/man_hinh_vc242i','man_hinh_vc242i');
+    Route::get('/man_hinh_ips165hz','man_hinh_ips165hz');
+
+
+
+    Route::get('/mainboard','mainboard');
+    Route::get('/mainboard_h510m','mainboard_h510m');
+    Route::get('/mainboard_h610m','mainboard_h610m');
+
+    
 });
+
+Route::controller(ClientProductController::class)->prefix('/product')->group(function(){
+    Route::get('/{id}','index')->name('product.detail');    
+});
+
+
+
 Route::controller(AuthController::class)->group(function () {
     Route::get('login', 'login')->name('login');
     Route::post('login', 'loginAction')->name('login.action');
     Route::get('register', 'register')->name('register');
     Route::post('register', 'registerSave')->name('register.save');
-    Route::get('logout', 'logout')->middleware('auth')->name('logout');
+    Route::get('logout', 'logout')->name('logout');
 });
+
 Route::middleware('auth')->group(function () {
     Route::prefix('admin')->group(function () {
         Route::get('/', [DashboardController::class, 'index'])->name('admin.page.dashboard');
@@ -60,3 +110,4 @@ Route::middleware('auth')->group(function () {
         });
     });
 });
+
