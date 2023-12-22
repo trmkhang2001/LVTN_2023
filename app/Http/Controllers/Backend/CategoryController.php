@@ -38,12 +38,12 @@ class CategoryController extends Controller
     {
         $category = Category::findOrFail($id);
         $category->update($request->all());
-        return redirect()->route('admin.page.category')->with('success', 'Update Category Success');
+        return redirect()->route('admin.page.category.index')->with('success', 'Update Category Success');
     }
     public function destroy(string $id)
     {
         $category = Category::findOrFail($id);
         $category->delete();
-        return redirect()->route('admin.page.category')->with('success', 'Delete Category Success');
+        return redirect()->route('admin.page.category.index')->with('success', 'Delete Category Success');
     }
 }
