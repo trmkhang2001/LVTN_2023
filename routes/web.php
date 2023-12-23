@@ -39,30 +39,21 @@ Route::controller(ClientsController::class)->prefix('/')->group(function(){
 
 
     Route::get('/pc_sao_choi','pc_sao_choi');
-    Route::get('/pc_gaming_cam','pc_gaming_cam');
-    Route::get('/pc_gaming_chuoi','pc_gaming_chuoi');
-    Route::get('/pc_gaming_kiwi','pc_gaming_kiwi');
+    
 
 
 
     Route::get('/trang_tri_pc','trang_tri_pc');
-    Route::get('/den_ngu','den_ngu');
-    Route::get('/bat_man','bat_man');
-    Route::get('/marvel_black','marvel_black');
-    Route::get('/ironman_black','ironman_black');
-    Route::get('/ironman_red','ironman_red');
+
 
 
     Route::get('/man_hinh_may_tinh','man_hinh_may_tinh');
-    Route::get('/man_hinh_ip2408s','man_hinh_ip2408s');
-    Route::get('/man_hinh_vc242i','man_hinh_vc242i');
-    Route::get('/man_hinh_ips165hz','man_hinh_ips165hz');
+
 
 
 
     Route::get('/mainboard','mainboard');
-    Route::get('/mainboard_h510m','mainboard_h510m');
-    Route::get('/mainboard_h610m','mainboard_h610m');
+
 
     
 });

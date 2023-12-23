@@ -213,19 +213,13 @@
                 </div>
             </div>
 
-            <div class="productRelate">
-
-                <div class="productRelateMain owl-carousel">
-
-
-                </div>
-            </div>
+            
 			
             <div class="productTabsContent">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item ">
                         <a class="nav-link active" id="home-tab" data-toggle="tab" role="tab"
-                            aria-controls="home" aria-selected="true"> <p style = "color:#e74c3c; font-size:22px ">* Mô tả chi tiết của {{$product->name}} : </p>
+                            aria-controls="home" aria-selected="true"> <br> <p style = "color:#e74c3c; font-size:22px ">* Mô tả chi tiết của {{$product->name}} : </p>
 							<p style = "color:#555555;">  {{$product->description}} </p>
 						</a>
                     </li>

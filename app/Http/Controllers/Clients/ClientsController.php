@@ -35,28 +35,28 @@ class ClientsController extends Controller
 
 
     public function pc_sao_choi(){
-        return view('clients.collections.pc_sao_choi');
+        return view('clients.categories.pc_sao_choi');
     }
    
 
 
 
     public function trang_tri_pc(){
-        return view('clients.collections.trang_tri_pc');
+        return view('clients.categories.trang_tri_pc');
     }
     
 
 
 
     public function man_hinh_may_tinh(){
-        return view('clients.collections.man_hinh_may_tinh');
+        return view('clients.categories.man_hinh_may_tinh');
     }
     
     
 
 
     public function mainboard(){
-        return view('clients.collections.mainboard');
+        return view('clients.categories.mainboard');
     }
     
 
